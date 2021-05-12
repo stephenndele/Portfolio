@@ -203,15 +203,17 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h3 class="section-title">Get in Touch</h3>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Reach me on</p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn"
-            href="mailto:stephendele093@gmail.com"
-            >stephendele093@gmail</a
-          >
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mqkwpeqk">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+          
         </div>
       </div>
     </section>
@@ -233,6 +235,9 @@
           </a>
           <a href="https://github.com/stephenndele/" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a href="mailto:stephenndele093@gmail.com" target="_blank">
+            <i class="fa fa-envelope-o fa-inverse"></i>
           </a>
         </div>
 
